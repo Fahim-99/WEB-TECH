@@ -1,0 +1,120 @@
+*{
+    align-items: center;
+}
+a{
+    color: brown;
+    font-style: normal;
+    background-color: none;
+    text-decoration: none;
+    padding: 5px;
+    margin: 5px;
+    border: 2px solid black;
+}
+a:hover{
+    background-color: white;
+}
+.all-header-container{
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    background-color:antiquewhite;
+    min-height: 50px;
+}
+.all-header-container div{
+    padding: 10px;
+}
+.all-header-container img{
+    height: 30px;
+    width: 30px;
+}
+.all-header-container *{
+    color: blueviolet;
+    font-size: 30px;
+}
+.all-header-container a{
+    color: black;
+    /* background-color: aqua; */
+    padding: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 50px;
+}
+.all-header-container a:hover{
+    color: white;
+    background-color: coral;
+}
+.left-header-container{
+    display: flex;
+    justify-content: right;
+    padding: 10px;
+    border-color: green;
+}
+.right-header-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    padding: 10px;
+    border-color: green;
+}
+.header-item{
+    height: 15px;
+    border-color: green;
+    margin: 2px;
+    align-items: center;
+    border: 5px;
+}
+.all-footer-item{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: rgb(85, 170, 25);
+}
+.all-footer-item *{
+    color: white;
+    padding: 5px;
+    border-radius: 25px;
+}
+.all-footer-item a:hover{
+    color: yellow;
+    background-color: blue;
+}
+body
+{
+    background-color: rgb(223, 208, 50);
+    align-items: center;
+}
+.profile-link-conatiner{
+    display: flex;
+    justify-content: space-between;
+}
+.err{
+    color: red;
+}
+input{
+    border-radius: 25px;
+}
+form.login *{
+    font-size: 30px;
+    background-color: rgb(193, 163, 194);
+}
+form.login input{
+    background-color: aliceblue;
+}
+table{
+    border: 2px black solid ;
+    border-collapse: collapse;
+}
+table tr{
+    background-color: orange;
+}
+table tr:nth-child(even){
+    background-color: orangered;
+}
+table td, th{
+    border: 2px white solid;
+    color: white;
+}
+table tr:hover{
+    box-shadow: 50px;
+    background-color: brown;
+}
